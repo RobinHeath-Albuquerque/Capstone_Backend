@@ -1,7 +1,0 @@
-<form action="{% url 'market:create_new_market' %}" method="post">
-    {% csrf_token %}
-    Name:<input type="text" name="name" id="name"><br>
-    Time:<input type="time" name="time" id="time"><br>
-    Location:<input type="text" name="location" id="location"><br>
-     <input type="submit" value="Add New!">
-</form>
