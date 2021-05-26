@@ -30,6 +30,7 @@ class Grower(models.Model):
 
 
 class Buyer(models.Model):
+    objects = None
     fName = models.CharField(max_length=50)
     lName = models.CharField(max_length=50)
     userName = models.CharField(max_length=50)
